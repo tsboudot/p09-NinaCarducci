@@ -1,0 +1,17 @@
+# Ignorer les fichiers compilés
+*.class
+
+# Ignorer les fichiers de configuration spécifiques à IntelliJ IDEA
+.idea/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers temporaires
+*.tmp
+Enregistre le fichier ".gitignore".
+
+
+
+
+
