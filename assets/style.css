@@ -455,3 +455,11 @@ input[type="submit"] {
 	height: 21px;
 	width: 21px;
 }
+
+.d-block .w-100 {
+	width: 1048px;
+	height: 542px;
+
+	min-height: 44vh;
+	min-width: 100%;
+}
