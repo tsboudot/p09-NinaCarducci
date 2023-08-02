@@ -108,8 +108,49 @@ body {
 
 .gallery-item {
 	width: 29%;
-	object-fit: cover;
+	height: 29%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	min-height: 450px;
+	background-position: center center;
+}
 
+
+#AaronConcert {
+	background-image: url('./images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp');
+}
+
+#AliMorshedlou {
+	background-image: url('./images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webP');
+}
+
+#jasonGoodman {
+	background-image: url('./images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp');
+}
+
+#AnnahBusing {
+	background-image: url('./images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webP');
+}
+
+#AdeTunjing {
+	background-image: url('./images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webP');
+}
+
+#JacobOwens {
+	background-image: url('./images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webP');
+}
+
+#NinoVanPrattenburg {
+	background-image: url('./images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webP');
+}
+
+#austinNeil {
+	background-image: url('./images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webP');
+}
+
+#matheusCamposFelipe {
+	background-image: url('./images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webP');
 }
 
 .title {
