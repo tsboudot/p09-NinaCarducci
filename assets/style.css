@@ -437,3 +437,21 @@ input[type="submit"] {
 	}
 
 }
+
+.photoAbout {
+	height: 100%;
+	width: 100%;
+}
+
+.picture.right img {
+	height: 342px;
+	width: 342px;
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+.social-link img {
+	height: 21px;
+	width: 21px;
+}
