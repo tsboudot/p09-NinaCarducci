@@ -439,6 +439,7 @@ input[type="submit"] {
 	width: 21px;
 }
 
+<<<<<<< HEAD
 footer {
 	padding: 10px 25px 10px 25px;
 	background-color: black;
@@ -522,4 +523,12 @@ footer {
 .selection-Gallery button.active {
 	background-color: yellow;
 	color: #fff;
+=======
+.d-block .w-100 {
+	width: 1048px;
+	height: 542px;
+
+	min-height: 44vh;
+	min-width: 100%;
+>>>>>>> edd196fd57c0207c14c6614a8befef082cfa0bd5
 }
