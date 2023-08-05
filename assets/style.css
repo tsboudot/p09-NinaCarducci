@@ -98,23 +98,6 @@ body {
 
 
 
-.gallery {
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 5px;
-
-
-}
-
-.gallery-item {
-	width: 29%;
-	height: 29%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: block;
-	min-height: 450px;
-	background-position: center center;
-}
 
 
 #AaronConcert {
@@ -436,4 +419,110 @@ input[type="submit"] {
 		width: 100%;
 	}
 
+}
+
+.photoAbout {
+	height: 100%;
+	width: 100%;
+}
+
+.picture.right img {
+	height: 342px;
+	width: 342px;
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+.social-link img {
+	height: 21px;
+	width: 21px;
+}
+
+footer {
+	padding: 10px 25px 10px 25px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: end;
+	color: gray;
+}
+
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 5px;
+	padding-top: 20px;
+	justify-content: space-around;
+
+
+}
+
+.gallery-item {
+	width: 280px;
+	height: 280px;
+	background-size: cover;
+	display: block;
+	background-position: center center;
+}
+
+.selection-Gallerry {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.selection-Gallerry button {
+	background-color: white;
+	border: 0;
+}
+
+.selection-Gallery button.active {
+	background-color: yellow;
+	color: #fff;
+}
+
+@media all and (max-width: 767px) {
+	footer {
+		align-items: center;
+	}
+
+	.gallery-item {
+		width: 80%;
+		height: 700px;
+		background-size: cover;
+	}
+
+	#jasonGoodman {
+		background-position: 60% center;
+	}
+
+	#matheusCamposFelipe {
+		background-position: 60% center;
+	}
+
+	body {
+		width: 100vw;
+	}
+
+	.gallery {
+		width: 100%;
+	}
+
+	.top-header {
+		max-width: 100%;
+		margin: 0;
+	}
+}
+
+.filter-btn.active {
+	background-color: rgb(156, 241, 58);
+	color: white;
 }
