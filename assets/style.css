@@ -449,42 +449,6 @@ footer {
 	color: gray;
 }
 
-@media all and (max-width: 650px) {
-	footer {
-		align-items: center;
-	}
-
-	.gallery-item {
-		width: 650px;
-		height: 650px;
-		min-height: 100%;
-		min-height: fit-content;
-		background-size: cover;
-	}
-
-	body {
-		width: 100vw;
-	}
-
-	.gallery {
-		width: 100%;
-	}
-
-	.top-header {
-		max-width: 100%;
-		margin: 0;
-	}
-}
-
-@media all and (max-width:1000px) {
-
-
-	.gallery-item {
-		width: 240px;
-		height: 240px;
-		background-size: contain;
-	}
-}
 
 .gallery {
 	flex-direction: row;
@@ -522,4 +486,37 @@ footer {
 .selection-Gallery button.active {
 	background-color: yellow;
 	color: #fff;
+}
+
+@media all and (max-width: 767px) {
+	footer {
+		align-items: center;
+	}
+
+	.gallery-item {
+		width: 80%;
+		height: 700px;
+		background-size: cover;
+	}
+
+	#jasonGoodman {
+		background-position: 60% center;
+	}
+
+	#matheusCamposFelipe {
+		background-position: 60% center;
+	}
+
+	body {
+		width: 100vw;
+	}
+
+	.gallery {
+		width: 100%;
+	}
+
+	.top-header {
+		max-width: 100%;
+		margin: 0;
+	}
 }
