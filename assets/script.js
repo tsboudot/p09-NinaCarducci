@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Écouteur d'événement sur les boutons
 const filterButtons = document.querySelectorAll(".filter-btn");
 
@@ -38,3 +39,6 @@ function filterGallery(event) {
         });
     }
 }
+=======
+const filterButtons = document.querySelectorAll(".filter-btn"); function filterGallery(t) { const e = t.target.id, l = document.querySelectorAll(".gallery > div"); filterButtons.forEach(t => { t.id === e ? t.classList.add("active") : t.classList.remove("active") }), "Tous" === e ? l.forEach(t => { t.style.display = "block" }) : l.forEach(t => { const l = t.getAttribute("data-gallery-tag"); t.style.display = l === e ? "block" : "none" }) } filterButtons.forEach(t => { t.addEventListener("click", filterGallery) });
+>>>>>>> f53dcad3c7c9219ac2afc3cd45189b658f77bd7e
