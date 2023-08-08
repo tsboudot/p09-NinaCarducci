@@ -29,26 +29,30 @@
 			"name": "Nina Carducci",
 			"image": "https://tsboudot.github.io/p09-NinaCarducci/assets/images/nina.webP",
 			"telephone": "05 56 67 78 89",
-			"email": "",
 			"address": {
-			  "@type": "PostalAddress",
-			  "streetAddress": "68 avenue Alsace-Lorraine",
-			  "addressLocality": "Bordeaux",
-			  "postalCode": "33200"
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "44.846", 
+				"longitude": "-0.606"  
 			},
 			"openingHoursSpecification": {
-			  "@type": "OpeningHoursSpecification",
-			  "dayOfWeek": [
-				"Monday",
-				"Tuesday",
-				"Wednesday",
-				"Thursday",
-				"Friday"
-			  ],
-			  "opens": "10:00",
-			  "closes": "19:00"
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
 			}
-		  }
+		}
 	</script>
 </head>
 
@@ -133,25 +137,43 @@
 		<h3 class="title">Portfolio</h3>
 		<div class="container py-3">
 			<div class="selection-Gallerry">
-				<button id="Tous" class="filter-btn">Tous</button>
+				<button id="Tous" class="filter-btn active">Tous</button>
 				<button id="Entreprises" class="filter-btn">Entreprises</button>
 				<button id="Mariages" class="filter-btn">Mariages</button>
 				<button id="Concert" class="filter-btn">Concert</button>
 			</div>
 			<div class="gallery">
-				<div data-gallery-tag="Concert" class="gallery-item" id="AaronConcert">
+				<div data-gallery-tag="Concert" class="gallery-item"
+					data-image-url="assets\images\gallery\concerts\aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+					id="AaronConcert">
 				</div>
-				<div data-gallery-tag="Entreprises" class="gallery-item" id="AliMorshedlou">
+				<div data-gallery-tag="Entreprises" class="gallery-item"
+					data-image-url="assets\images\gallery\entreprise\ali-morshedlou-WMD64tMfc4k-unsplash.webP"
+					id="AliMorshedlou">
 				</div>
-				<div data-gallery-tag="Entreprises" class="gallery-item" id="jasonGoodman">
+				<div data-gallery-tag="Entreprises" class="gallery-item"
+					data-image-url="assets\images\gallery\entreprise\jason-goodman-tHO1_OuKbg0-unsplash.webP"
+					id="jasonGoodman">
 				</div>
-				<div data-gallery-tag="Mariages" class="gallery-item" id="AnnahBusing">
+				<div data-gallery-tag="Mariages" class="gallery-item"
+					data-image-url="assets\images\gallery\mariage\hannah-busing-RvF2R_qMpRk-unsplash.webp"
+					id="AnnahBusing">
 				</div>
-				<div data-gallery-tag="Portrait" class="gallery-item" id="AdeTunjing"></div>
-				<div data-gallery-tag="Mariages" class="gallery-item" id="JacobOwens"></div>
-				<div data-gallery-tag="Portrait" class="gallery-item" id="NinoVanPrattenburg"></div>
-				<div data-gallery-tag="Concert" class="gallery-item" id="austinNeil"></div>
-				<div data-gallery-tag="Entreprises" class="gallery-item" id="matheusCamposFelipe"></div>
+				<div data-gallery-tag="Portrait" class="gallery-item"
+					data-image-url="assets\images\gallery\portraits\ade-tunji-rVkhWWZFAtQ-unsplash.webP"
+					id="AdeTunjing"></div>
+				<div data-gallery-tag="Mariages" class="gallery-item"
+					data-image-url="assets\images\gallery\mariage\jakob-owens-SiniLJkXhMc-unsplash.webP"
+					id="JacobOwens"></div>
+				<div data-gallery-tag="Portrait" class="gallery-item"
+					data-image-url="assets\images\gallery\portraits\nino-van-prattenburg--443cl1uR_8-unsplash.webp"
+					id="NinoVanPrattenburg"></div>
+				<div data-gallery-tag="Concert" class="gallery-item"
+					data-image-url="assets\images\gallery\concerts\austin-neill-hgO1wFPXl3I-unsplash.webP"
+					id="austinNeil"></div>
+				<div data-gallery-tag="Entreprises" class="gallery-item"
+					data-image-url="assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webP"
+					id="matheusCamposFelipe"></div>
 			</div>
 		</div>
 		<div class="quote">
