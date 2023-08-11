@@ -528,3 +528,9 @@ footer {
 	background-color: rgb(68, 63, 7);
 	color: white;
 }
+
+.d-block.w-100 {
+	width: 1380px;
+	height: 740px;
+	min-width: 100%;
+}
