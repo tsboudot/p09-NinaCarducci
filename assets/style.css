@@ -534,3 +534,24 @@ footer {
 	height: 740px;
 	min-width: 100%;
 }
+
+.picture .right {
+	height: 480px;
+	width: 480px
+}
+
+@media all and (max-width: 1180px) {
+	.d-block.w-100 {
+		width: 1180px;
+		height: 670px;
+		min-width: 100%;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.d-block.w-100 {
+		width: 720px;
+		height: 460px;
+		min-width: 100%;
+	}
+}
