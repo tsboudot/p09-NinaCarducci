@@ -535,9 +535,10 @@ footer {
 	min-width: 100%;
 }
 
-.picture .right {
-	height: 360px;
-	width: 360px
+
+.picture.right img {
+	height: 320px;
+	width: 320px;
 }
 
 @media all and (max-width: 1180px) {
